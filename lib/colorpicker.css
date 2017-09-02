@@ -1,0 +1,55 @@
+/* Common stuff */
+.picker-wrapper, 
+.slide-wrapper {
+    position: relative;
+    float: left;
+}
+.picker-indicator,
+.slide-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+.picker,
+.slide {
+    cursor: crosshair;
+    float: left;
+}
+
+
+.cp-normal {
+    padding: 10px;
+    background-color: white;
+    float: left;
+}
+.cp-normal .picker {
+    width: 200px;
+    height: 200px;
+}
+.cp-normal .slide {
+    width: 30px;
+    height: 200px;
+}
+.cp-normal .slide-wrapper {
+    margin-left: 20px;
+}
+.cp-normal .picker-indicator {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #AAA;
+    border-radius: 20px;
+    opacity: .8;
+    background-color: #FFF;
+    pointer-events: none;
+}
+.cp-normal .slide-indicator {
+    width: 38px;
+    height: 10px;
+    left: -4px;
+    opacity: .6;
+    border: 2px solid gray;
+    border-radius: 2px;
+    background-color: white;
+    pointer-events: none;
+}

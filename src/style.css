@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+body {
+    /*padding: 0 15px;*/
+    background: #444;
+}
+.main {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.main img.mainImage {
+    max-width: 100%;
+}
+.pickedColor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 150px;
+    background: #ff0000;
+}
+
+.colorPickerModal .colorDetails {
+    float: left;
+    margin: 0 0 0 40px;
+}
+
+.colorPickerModal .colorDetails .colorDisplay {
+    width: 100%;
+    height: 80px;
+    background: #ff0000;
+    margin: 0 0 20px 0;
+}
