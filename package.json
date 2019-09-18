@@ -7,7 +7,7 @@
     "start": "electron .",
     "package": "electron-packager . CropAndPick --platform=win32 --arch=x64 --asar --overwrite --out=./out",
     "package-win32": "electron-packager . CropAndPick --platform=win32 --arch=x64 --asar --overwrite --out=./out",
-    "package-linux": "electron-packager . CropAndPick --platform=linux --arch=x64 --asar --overwrite --out=./out"
+    "package-linux": "electron-packager . CropAndPick --platform=linux --arch=x64 --asar --overwrite --out=./out && cp linux_specific/* out/CropAndPick-linux-x64"
   },
   "repository": "https://github.com/julius/CropAndPick",
   "keywords": [
@@ -19,8 +19,8 @@
   ],
   "author": "Julius Eckert",
   "devDependencies": {
-    "electron": "~1.6.2",
-    "electron-packager": "^9.0.0"
-  },
+    "electron": "^4.0.1",
+    "electron-packager": "^14.0.0"
+},
   "dependencies": {}
 }

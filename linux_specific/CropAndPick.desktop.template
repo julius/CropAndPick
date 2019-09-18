@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=CropAndPick
+Exec=DIR/CropAndPick
+Terminal=false
+Type=Application
